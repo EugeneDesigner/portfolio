@@ -1,0 +1,376 @@
+@import '../../style/_variables';
+@keyframes Repeat {
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #F1A9A0;
+  }
+  50% {
+    background-color: #D2527F;
+  }
+
+}
+
+
+.computer__background, .design__draw,
+.wireframing__responsive, .skies__background,
+.loop, .text, .sunset__text {
+  z-index: 10;
+}
+
+.content {
+  min-height: 100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  max-width: $dev-width;
+  margin: 0 auto;
+  font-family: $fontBODY;
+
+
+}
+
+.first_background {
+  position: relative;
+}
+
+.lift {
+  position: absolute;
+  left: 48%;
+  transform: translateX(-48%);
+  transition: position 1s linear;
+  z-index: 10;
+
+
+
+
+}
+
+
+.building_background {
+  padding-top: 100px;
+  overflow: visible;
+
+
+
+}
+
+
+//display of the child elements
+.color_background {
+  min-height: 1300px;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+
+  &:not(:last-child) {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+  .skies {
+    background: #1a2980;
+    background: #2BC0E4;
+    background: linear-gradient(to top left, #1A2980 , #26D0CE);
+
+  }
+
+  .wireframing {
+    background-color: #F1C40F;
+  }
+  .design {
+    background-color: #41537F;
+  }
+  .computer {
+    background-color: #29B5ED;
+  }
+  .finish {
+    background-image: url('./finish.jpg');
+    background-size: cover;
+  }
+
+
+
+
+//styling inside  of the children components
+.main {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main_text {
+  font-size: 5em;
+  position: absolute;
+  letter-spacing: .08em;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: .1em;
+  right: 0%;
+  top: 20px;
+  text-align: right;
+
+
+  &:first-letter {
+    background: #fff;
+    color: #41537F;
+    padding: 15px;
+    border-radius: 8px;
+    margin-right: 5px;
+    text-align: center;
+  }
+}
+
+
+.skies {
+  .main {
+    height: 100%;
+    overflow: hidden;
+
+    justify-content: flex-start;
+  }
+}
+
+.bulb {
+
+  .main {
+    background-image: url('./light.svg');
+    background-position: center center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .text {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 3.2em;
+    letter-spacing: .08em;
+    white-space: nowrap;
+
+    font-family: 'Black Ops One', cursive;
+    p {
+      background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(117,117,117,1) 32%, rgba(105,105,105,1) 64%, rgba(0,0,0,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+
+}
+
+.wireframing {
+
+  .main {
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .main_text:first-letter {
+      color: #F1C40F;
+  }
+
+  .wireframing__responsive {
+    max-height: 60%;
+    width: 100%;
+  }
+
+
+
+
+}
+
+.design {
+  .main {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .design__draw {
+    padding: 20px;
+    width: 100%;
+    max-height: 80%;
+
+
+  }
+}
+
+.computer {
+  .main {
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .main_text:first-letter {
+      color: #29B5ED;
+  }
+    .computer__background {
+        width: 100%;
+        max-height: 70%;
+    }
+    blockquote {
+
+      font-size: $text-citation;
+      width: 50%;
+      padding: 0.25em 40px;
+      line-height: 1.45;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      text-align: justify;
+      color: #000;
+      bottom: 30px;
+      font-family: $fontINTRO;
+
+      :before {
+        display: block;
+        content: "\201C";
+        font-size: 5em;
+        position: absolute;
+        left: -50px;
+        top: -70px;
+        color: #fff;
+        }
+        cite {
+          color: #AE4731;
+          font-size: .8em;
+          display: block;
+          margin-top: 15px;
+        }
+        blockquote cite:before {
+          content: "\2014 \2009";
+        }
+    }
+
+}
+
+
+
+.finish {
+  max-height: 800px;
+  min-height: 800px;
+.main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .finish__title {
+    padding: 30px;
+
+  }
+    .loop {
+      display: flex;
+      flex-direction: row;
+      font-size: 1.4em;
+      height: 100px;
+      width: 80%;
+      border-radius: 3px;
+
+     div {
+      padding: 35px 10px 0;
+      user-select: none;
+      text-align: center;
+      animation: Repeat 4s linear infinite;
+      opacity: 0;
+      width: 25%;
+      max-width: 250px;
+      min-width: 60px;
+      background-color: #c0392b;
+      border-radius: inherit;
+      font-weight: 700;
+      height: 100%;
+      display: block;
+
+      $color1: #e67e22;
+      $color2: #ecf0f1;
+      $color3: #3498db;
+      $colors: $color1, $color2, $color3;
+      @for $i from 1 to 4 {
+        &:nth-child(#{$i}) {
+          animation-delay: #{$i}s;
+          background-color: nth($colors, $i);
+      }
+      }
+
+  }
+
+}
+}
+
+
+.sunset {
+
+
+    background: url('./sunset-01.svg') no-repeat bottom center scroll;
+    background-size: cover;
+
+
+    .sunset__text {
+      font-size: 2.5em;
+      display: inline-block;
+      position: absolute;
+      line-height: 2em;
+      bottom: 30%;
+      transform: translateY(-50%);
+      padding: 20px;
+      background-color: rgba(255, 255, 255, .5);
+
+      span {
+        padding: inherit;
+        color: #fff;
+        letter-spacing: .1em;
+        animation: changeColor .8s ease-out infinite;
+        background-color: #F1A9A0;
+      }
+
+    }
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    .color_background {
+      min-height: 800px;
+      height: 100%;
+    }
+    .computer blockquote {
+      font-size: $text-large;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .color_background {
+      min-height: 600px;
+      max-height: 600px;
+    }
+
+    .main_text {
+      font-size: 3em;
+    }
+
+    .computer blockquote {
+      font-size: $text-middle;
+      width: 70%;
+      bottom: 20px;
+      right: -50px;
+
+      :before {
+        left: -10px;
+        top: -30px;
+      }
+    }
+  }

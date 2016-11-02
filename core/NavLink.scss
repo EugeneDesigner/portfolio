@@ -1,0 +1,23 @@
+:not(:first-child) {
+
+  .active {
+    padding-bottom: 40px !important;
+    font-weight: bold;
+    pointer-events: none;
+    color: rgba(0, 0, 0, .7);
+
+
+  }
+
+  .active:hover {
+      transform:translateY(0px) !important;
+  }
+
+  @media screen and (max-width: 550px) {
+    .active {
+    padding-bottom: 30px !important;
+  }
+  }
+
+
+}
