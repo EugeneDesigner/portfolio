@@ -35,13 +35,13 @@
 
 .navigate--colourful {
   li:nth-child(2) {
-      background-color: #E86621;
+      background-color: #9DAAE1;
   }
   li:nth-child(3) {
-    background-color: #6054E8;
+    background-color: #d3c8c6;
   }
   li:nth-child(4) {
-    background-color: #FF009D;
+    background-color: #efaf8d;
   }
 }
 
@@ -52,7 +52,8 @@ header {
   flex-direction: column;
   align-self: center;
   overflow: hidden;
-  background-color: #e3e3e3;
+  background-color: #fff;
+
   border-radius: 6px;
 
 
@@ -62,9 +63,10 @@ header {
 .top {
   flex: 1;
   position: relative;
-  padding-top: 5px;
+  margin: 5px 0;
   background-color: #fff;
   display: flex;
+
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -169,6 +171,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px -1px 1px 0px rgba(120,120,120, .1);
 
     nav {
       width: 100%;

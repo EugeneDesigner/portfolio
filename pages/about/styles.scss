@@ -18,12 +18,21 @@ h4 {
   align-self: center;
 }
 
+.section__view {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
 
-section[class*='content__'] {
+.content > * {
 
   padding: 10px 5px;
   border-radius: 2px;
   flex: 1;
+  margin: 20px 0;
 }
 
 .section__title {
@@ -48,16 +57,17 @@ section[class*='content__'] {
 .content__intro {
   position: relative;
 
+
   .content__intro__title {
     display: inline-block;
     position: absolute;
     left: 5px;
     z-index: 1;
     bottom: 15%;
-    width: 60%;
-    max-width: $about-width/2;
-    padding: 5px 5px 5px 30px;
-    font-size: $text-middle;
+    width: 50%;
+    padding: 30px 5px;
+    text-align: center;
+    font-size: $text-large;
     color: #1d2120;
     font-weight: 400;
     letter-spacing: .1em;
@@ -69,11 +79,14 @@ section[class*='content__'] {
   .content__intro__background {
     flex: 1;
     position: relative;
+
   }
 }
 
+
+
 .content__principles {
-  background-color: #dddfd4;
+  background-color: #F4F3EA;
 
   flex-direction: column;
   align-items: center;
@@ -85,6 +98,8 @@ section[class*='content__'] {
   .section__title {
     align-self: flex-start;
   }
+
+
   .content__principles__thumbnail {
     margin-top: 50px;
     height: 300px;
@@ -108,7 +123,7 @@ section[class*='content__'] {
     .describe--great {
       background-color: rgb(52, 152, 219);
     }
-    .desribe--long {
+    .describe--long {
       background-color: rgb(230, 126, 34);
     }
   }
@@ -117,25 +132,20 @@ section[class*='content__'] {
 //instruments
 
 .content__instruments{
-  background-color: #F4F4F4;
+  background-color: #F4F3EA;
   display: flex;
-  justify-content: center;
-  flex-flow: column;
+  flex-direction: column;
+
 
 
 .section__title p {
   border-left-color: #6054E8;
 }
 .content__instrument__column {
-  display: inline-block;
-  min-width: 55%;
-  padding: 20px 0 40px;
+  min-width: 49%;
+  padding: 40px 10px 0;
   }
 
-.content__instrument__column:nth-child(2n+1) {
-
-    align-self: flex-end;
-  }
 
   .bubble {
     float: left;
@@ -183,8 +193,8 @@ section[class*='content__'] {
 
 
 .content__citation {
-  background-color: #89bdd3;
-  height: 100vh;
+  background-color: #4A96AD;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,8 +202,8 @@ section[class*='content__'] {
 
   p {
     padding: 10px;
-    font-size: $text-huge;
-    line-height: 2.5em;
+    font-size: $text-large;
+    line-height: 2em;
     text-align:justify;
     color: #fff;
     width: 90%;
@@ -201,7 +211,7 @@ section[class*='content__'] {
   &:first-letter {
     font-size: $text-large;
     letter-spacing: -.1em;
-    padding-left: 30px;
+    padding: 0 5px;
     font-weight: 500;
     color: red;
   }
@@ -216,15 +226,18 @@ section[class*='content__'] {
   .content__intro {
     .content__intro__title {
       width: 100%;
-      bottom: -6px;
+      bottom: -10px;
+      padding-right: 0;
       text-align: center;
+      border-radius: 0;
       left: 0;
 
     }
   }
 
+
   .content__instruments{
-    .content__instrument__column:nth-child(2n+1) {
+    .content__instrument__column {
         align-self: flex-start;
         width: 100%;
       }

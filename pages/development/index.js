@@ -99,10 +99,15 @@ class DevelopmentPage extends React.Component {
 
     return (
       <div className={s.content}>
+      <div className={s.preview}>
+          <p><span>Be careful - long scroll ahead!</span> I came up with a small idea of visualizing my workflow,
+          which turned into a couple of days of constant drawing. As usual. It was challenging, tiresome, but very enjoyable.
+        I brought my idea into life - and that is the most important. So, good look with scrolling!</p>
+        </div>
 
       <section className={s.first_background}  ref="first">
         <div className={s.lift} ref="lift" style={css}>
-          <Background height="60px" width="auto" viewBox="0 132.924 16.687 35.885" background="lift" /></div>
+          <Background height="90px" width="auto" viewBox="0 0 59.001 132.914" background="lift" /></div>
         <div className={s.building_background} >
           <Background viewBox="188.716 0 819.082 1102.821"
                       height="auto"
@@ -166,9 +171,9 @@ class DevelopmentPage extends React.Component {
           <div className={s.main_text}>Coding</div>
           </article>
           <blockquote>
-          The first 90% of the code accounts for the first 90% of the development time.
-          The remaining 10% of the code accounts for the other 90% of the development time.
-            <cite>Tom Cargill</cite>
+          On this stage I usually spend most of my time - make the design click, guarantee the flow, ensure that the
+          architecture of the project is both well-structured and opened for future expansion
+
           </blockquote>
 
       </section>

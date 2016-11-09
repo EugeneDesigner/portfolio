@@ -37,6 +37,30 @@
 
 }
 
+
+.preview {
+  flex: 1;
+  max-width: 80%;
+  align-self: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px 0;
+  border-radius: 6px 35px;
+  span {
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+  }
+  p {
+
+    font-size: 1.6em;
+    line-height: 1.7em;
+    text-align: left;
+  }
+
+}
+
+
 .first_background {
   position: relative;
 }
@@ -96,7 +120,7 @@
     background-color: #29B5ED;
   }
   .finish {
-    background-image: url('./finish.jpg');
+    background-image: url('../../shared/img/finish.jpg');
     background-size: cover;
   }
 
@@ -149,7 +173,7 @@
 .bulb {
 
   .main {
-    background-image: url('./light.svg');
+    background-image: url('../../shared/img/light.svg');
     background-position: center center;
     background-size: cover;
     justify-content: center;
@@ -317,7 +341,7 @@
 .sunset {
 
 
-    background: url('./sunset-01.svg') no-repeat bottom center scroll;
+    background: url('../../shared/img/sunset-01.svg') no-repeat bottom center scroll;
     background-size: cover;
 
 
@@ -364,7 +388,7 @@
 
     .computer blockquote {
       font-size: $text-middle;
-      width: 70%;
+      width: 60%;
       bottom: 20px;
       right: -50px;
 
@@ -372,5 +396,9 @@
         left: -10px;
         top: -30px;
       }
+
+    }
+    .lift svg {
+      height: 50px !important;
     }
   }

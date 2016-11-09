@@ -26,7 +26,7 @@ const config = {
   // Options affecting the output of the compilation
   output: {
     path: path.resolve(__dirname, './public/dist'),
-    publicPath: 'https://github.com/EugeneDesigner/portfolio/dist/',
+    publicPath: 'http://localhost:3000/dist/',
     filename: isDebug ? '[name].js?[hash]' : '[name].[hash].js',
     chunkFilename: isDebug ? '[id].js?[chunkhash]' : '[id].[chunkhash].js',
     sourcePrefix: '  ',
@@ -93,10 +93,9 @@ const config = {
           'style-loader',
           `css-loader?${JSON.stringify({
             sourceMap: isDebug,
-            // CSS Modules https://github.com/css-modules/css-modules
+
             modules: true,
             localIdentName: isDebug ? '[name]_[local]_[hash:base64:3]' : '[hash:base64:4]',
-            // CSS Nano http://cssnano.co/options/
             minimize: !isDebug,
           })}`,
           'postcss-loader',
@@ -113,10 +112,10 @@ const config = {
           'style-loader',
           `css-loader?${JSON.stringify({
             sourceMap: isDebug,
-            // CSS Modules https://github.com/css-modules/css-modules
+
             modules: true,
             localIdentName: isDebug ? '[name]_[local]_[hash:base64:3]' : '[hash:base64:4]',
-            // CSS Nano http://cssnano.co/options/
+
             minimize: !isDebug,
           })}`,
           'postcss-loader',
@@ -133,7 +132,7 @@ const config = {
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2)$/,
-        loader: 'url-loader?limit=10000',
+        loader: 'url-loader?limit=10000&name=[name]',
       },
       {
         test: /\.(eot|ttf|wav|mp3)$/,

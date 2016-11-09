@@ -112,6 +112,6 @@
     "publish": "node run publish",
     "publish:debug": "node run publish --debug",
     "start": "node run",
-    "deploy": "gh-pages -d public"
+    "deploy": "npm build && surge -p public --domain myportfolio.surge.sh"
   }
 }
