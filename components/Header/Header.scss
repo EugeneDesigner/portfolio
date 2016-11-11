@@ -294,4 +294,12 @@ header {
       padding-bottom: 20px;
     }
   }
+
+  .menu__fixed {
+    opacity: 1 !important;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
 }

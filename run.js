@@ -7,9 +7,9 @@ const webpack = require('webpack');
 // TODO: Update configuration settings
 const config = {
   title: 'Eugene Portfolio',
-  url: 'https://rsb.kriasoft.com',          // Your website URL
-  project: 'react-static-boilerplate',      // Firebase project. See README.md -> How to Deploy
-  trackingID: 'UA-XXXXX-Y',                 // Google Analytics Site's ID
+  url: 'https://www.eugenedeveloper.me`',
+  project: 'my_portfolio',
+  trackingID: 'UA-XXXXX-Y',                 
 };
 
 const tasks = new Map(); // The collection of automation tasks ('clean', 'build', 'publish', etc.)

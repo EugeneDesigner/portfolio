@@ -77,7 +77,7 @@ export default class ProjectsPage extends React.Component {
         <div className={s.lightbox} >
           <div className={s.lightbox__box}>
             <a className={s.close} onClick={this.imageShow}>X</a>
-            <img src={"http://localhost:3000/dist/" + props.name}/>
+            <img src={"http://159.203.129.83/dist/" + props.name}/>
           </div>
 
        </div>

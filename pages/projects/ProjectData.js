@@ -34,8 +34,8 @@ export const data = [
       section: "Website",
       title: "Browser start page",
       task: "Build a personalised and nicely designed environment of favourite websites for better browser experience",
-      technology: "React, Redux, Node",
-      link: "https://eugenedesigner.github.io/aquaria/"
+      technology: "React, Redux, Node, Illustrator",
+      link: "https://myportfolio.surge.sh"
     },
 
 
