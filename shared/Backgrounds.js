@@ -353,23 +353,102 @@ renderBackground() {
     case 'biglogo':
       return (
         <g>
-        <rect y="65.204" fill="#00FFFF" width="20" height="17"/>
-        <rect x="5" y="82.204" fill="#00FFFF" width="20" height="17"/>
-        <rect x="42.5" y="43.704" fill="#00FFFF" stroke="#111111" strokeMiterlimit="10" width="48" height="24"/>
-        <rect x="32.5" y="10.704" fill="#00FFFF" stroke="#111111" strokeMiterlimit="10" width="77" height="33"/>
-        <rect x="32" y="67.704" fill="#00FFFF" stroke="#111111" strokeMiterlimit="10" width="84" height="31"/>
-        <g>
-
-            <rect x="105.786" y="7.198" transform="matrix(0.9981 0.0611 -0.0611 0.9981 0.7354 -6.6596)" fill="#F4B290" width="7" height="3"/>
-
-            <rect x="106.003" y="4.113" transform="matrix(0.9981 0.0611 -0.0611 0.9981 0.514 -6.5879)" fill="#F4B290" width="4" height="2"/>
-
-            <rect x="106.215" y="0.18" transform="matrix(0.9981 0.0611 -0.0611 0.9981 0.3066 -6.6683)" fill="#F4B290" width="6" height="3"/>
-
-            <rect x="106.775" y="2.669" transform="matrix(0.9981 0.0611 -0.0611 0.9981 0.4072 -6.567)" fill="#F4B290" width="1.667" height="1.417"/>
-
-            <rect x="106.566" y="6.079" transform="matrix(0.9981 0.0611 -0.0611 0.9981 0.6152 -6.5479)" fill="#F4B290" width="1.667" height="1.417"/>
-        </g>
+                
+          <rect x="607.308" y="581.836" transform="matrix(-1 0.0013 -0.0013 -1 1222.386 1165.8644)" fill="#FF9E73" width="7" height="3"/>
+          <rect x="607.303" y="578.839" transform="matrix(-1 0.0013 -0.0013 -1 1219.3729 1158.8708)" fill="#FF9E73" width="4" height="2"/>
+          <rect x="607.299" y="574.837" transform="matrix(-1 0.0013 -0.0013 -1 1221.3591 1151.866)" fill="#FF9E73" width="6" height="3"/>
+          <rect x="607.968" y="577.423" fill="#FF9E73" width="1.667" height="1.417"/>
+          <rect x="607.972" y="580.839" fill="#FF9E73" width="1.667" height="1.417"/>
+          <g>
+          	<g opacity="0.35">
+          		<rect x="606.125" y="586.841" fill="#00AF9E" width="20" height="17"/>
+          		<rect x="606.125" y="586.841" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="20" height="17"/>
+          		<rect x="604.125" y="585.841" fill="#00AF9E" width="20" height="17"/>
+          		<rect x="604.125" y="585.841" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="20" height="17"/>
+          	</g>
+          	<g>
+          		<g opacity="0.35">
+          			<rect x="604.125" y="585.841" fill="#00AF9E" width="20" height="17"/>
+          			<rect x="604.125" y="585.841" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="20" height="17"/>
+          		</g>
+          		<g>
+          			<rect x="602.125" y="584.841" fill="#00FFFF" width="20" height="17"/>
+          			<rect x="602.125" y="584.841" fill="none" stroke="#06B5B5" strokeWidth="0.25" width="20" height="17"/>
+          		</g>
+          	</g>
+          </g>
+          <g>
+          	<g opacity="0.35">
+          		<rect x="611" y="603.841" fill="#00AF9E" width="20" height="17"/>
+          		<rect x="611" y="603.841" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="20" height="17"/>
+          		<rect x="609" y="602.841" fill="#00AF9E" width="20" height="17"/>
+          		<rect x="609" y="602.841" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="20" height="17"/>
+          	</g>
+          	<g>
+          		<g opacity="0.35">
+          			<rect x="609" y="602.841" fill="#00AF9E" width="20" height="17"/>
+          			<rect x="609" y="602.841" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="20" height="17"/>
+          		</g>
+          		<g>
+          			<rect x="607" y="601.841" fill="#00FFFF" width="20" height="17"/>
+          			<rect x="607" y="601.841" fill="none" stroke="#06B5B5" strokeWidth="0.25" width="20" height="17"/>
+          		</g>
+          	</g>
+          </g>
+          <g>
+          	<g opacity="0.35">
+          		<rect x="648.5" y="564.341" fill="#00AF9E" width="48" height="24"/>
+          		<rect x="648.5" y="564.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="48" height="24"/>
+          		<rect x="646.5" y="563.341" fill="#00AF9E" width="48" height="24"/>
+          		<rect x="646.5" y="563.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="48" height="24"/>
+          	</g>
+          	<g>
+          		<g opacity="0.35">
+          			<rect x="644.5" y="563.341" fill="#00AF9E" width="48" height="24"/>
+          			<rect x="644.5" y="563.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="48" height="24"/>
+          		</g>
+          		<g>
+          			<rect x="642.5" y="562.341" fill="#00FFFF" width="48" height="24"/>
+          			<rect x="642.5" y="562.341" fill="none" stroke="#06B5B5" strokeWidth="0.25" width="48" height="24"/>
+          		</g>
+          	</g>
+          </g>
+          <g>
+          	<g opacity="0.35">
+          		<rect x="638.5" y="530.341" fill="#00AF9E" width="77" height="33"/>
+          		<rect x="638.5" y="530.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="77" height="33"/>
+          		<rect x="636.5" y="529.341" fill="#00AF9E" width="77" height="33"/>
+          		<rect x="636.5" y="529.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="77" height="33"/>
+          	</g>
+          	<g>
+          		<g opacity="0.35">
+          			<rect x="634.5" y="529.341" fill="#00AF9E" width="77" height="33"/>
+          			<rect x="634.5" y="529.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="77" height="33"/>
+          		</g>
+          		<g>
+          			<rect x="632.5" y="528.341" fill="#00FFFF" width="77" height="33"/>
+          			<rect x="632.5" y="528.341" fill="none" stroke="#06B5B5" strokeWidth="0.25" width="77" height="33"/>
+          		</g>
+          	</g>
+          </g>
+          <g>
+          	<g opacity="0.35">
+          		<rect x="638" y="589.341" fill="#00AF9E" width="84" height="31"/>
+          		<rect x="638" y="589.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="84" height="31"/>
+          		<rect x="636" y="588.341" fill="#00AF9E" width="84" height="31"/>
+          		<rect x="636" y="588.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="84" height="31"/>
+          	</g>
+          	<g>
+          		<g opacity="0.35">
+          			<rect x="634" y="588.341" fill="#00AF9E" width="84" height="31"/>
+          			<rect x="634" y="588.341" fill="none" stroke="#00AF9E" strokeWidth="0.25" width="84" height="31"/>
+          		</g>
+          		<g>
+          			<rect x="632" y="587.341" fill="#00FFFF" width="84" height="31"/>
+          			<rect x="632" y="587.341" fill="none" stroke="#06B5B5" strokeWidth="0.25" width="84" height="31"/>
+          		</g>
+          	</g>
+          </g>
         </g>
       )
     case 'lighthouse':

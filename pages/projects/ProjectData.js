@@ -3,7 +3,7 @@ export const data = [
         name: "aquaria",
         section: "Website",
         title: "Aquaria",
-        task: "Make the website based on the principles of responsiveness, mobile-friendliness, and simplicity",
+        task: "Create website of the Stockholm museum based on the principles of responsiveness, mobile-friendliness, and simplicity",
         technology: "Bootstrap, jQuery, Gulp",
         link: "https://eugenedesigner.github.io/aquaria/"
 
@@ -34,8 +34,8 @@ export const data = [
       section: "Website",
       title: "Browser start page",
       task: "Build a personalised and nicely designed environment of favourite websites for better browser experience",
-      technology: "React, Redux, Node, Illustrator",
-      link: "https://myportfolio.surge.sh"
+      technology: "React, Redux, Node, Adobe Illustrator",
+      link: "https://powerful-caverns-13617.herokuapp.com/"
     },
 
 
@@ -51,7 +51,7 @@ export const data = [
       name: "chess",
       section: "Design",
       title: "Finding Balance",
-      task: "In this work I decided to expand the concept the contrast of black & white in chess to show the contrast of time, decision etc.",
+      task: "In this work I have visualized the contrast of black & white ",
       technology: "Adobe Illustrator",
 
     },
@@ -59,7 +59,7 @@ export const data = [
         name: "vietnam",
         section: "Art",
         title: "Vietnamese Landscapes",
-        task: "After returning from Vietnam, I wanted to put some of my memories on paper. I like this work, as it is simly about people and nature - both thinks I enjoyed the most while travelling",
+        task: "After returning from Vietnam, I wanted to put some of my memories on paper. I like this work, as it is simply about people and nature - both things I enjoyed the most while travelling",
         technology: "Adobe Illustrator",
 
     },

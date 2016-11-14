@@ -53,7 +53,7 @@ export default class ProjectsPage extends React.Component {
 
 
         n.style.display = 'block';
-        n.style.height = '50%';
+        n.style.height = '100%';
 
 
 
@@ -87,7 +87,7 @@ export default class ProjectsPage extends React.Component {
     return (
       <div className={s.content}>
         <div className={s.works}>
-          <p>Below are some of my works I've done throughout the past year.
+          <p>Below are some of my works I've done recently.
              Feel free to look around, try them out. I hope you will like them.
              And yeah, I would be happy to answer all your questions, just
              throw me a message via the links provided above</p>

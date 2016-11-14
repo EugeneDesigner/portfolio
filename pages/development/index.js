@@ -101,8 +101,8 @@ class DevelopmentPage extends React.Component {
       <div className={s.content}>
       <div className={s.preview}>
           <p><span>Be careful - long scroll ahead!</span> I came up with a small idea of visualizing my workflow,
-          which turned into a couple of days of constant drawing. As usual. It was challenging, tiresome, but very enjoyable.
-        I brought my idea into life - and that is the most important. So, good look with scrolling!</p>
+          which turned into a couple of days of drawing and creative searching. As usual. It was challenging, tiresome, but very enjoyable.
+        I brought my idea into life - and that is the most important. So, good luck with scrolling!</p>
         </div>
 
       <section className={s.first_background}  ref="first">

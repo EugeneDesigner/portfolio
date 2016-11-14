@@ -32,7 +32,7 @@ class AboutPage extends Component {
             <div className={s.section__view}>
               <div >
                 <div className={ s.content__principles__thumbnail}><Icon size="100%" viewBox="0 0 360 360" icon="lego1"/></div>
-                <div className={s.content__principles__describe}>Make my work fly <s>damn</s> <span className={s['describe--fast']}>fast</span> </div>
+                <div className={s.content__principles__describe}>Ensure my work is well <span className={s['describe--fast']}>thought-out</span> </div>
               </div>
               <div>
                 <div className={s.content__principles__thumbnail}> <Icon size="100%" viewBox="0 0 360 360" icon="lego2"/></div>
@@ -55,7 +55,7 @@ class AboutPage extends Component {
             <ul className={s.list_left}><span className={s.list_title}>Exterior</span>
               <li>HTML5, CSS3</li>
               <li>Bootstrap, Foundation, Susy, 960</li>
-              <li> SASS, PostCSS, CSS Modules</li>
+              <li> SASS/Less, PostCSS, Pug</li>
               <li>Illustrator, Sketch, Photoshop</li>
             </ul>
           </div>
@@ -65,9 +65,9 @@ class AboutPage extends Component {
             <ul className={s.list_right}><span className={s.list_title}>Interior</span>
               <li>Javascript (ES6, Typescript)</li>
               <li>ReactJS &#38; Redux (SPA, Isomorphics Apps)</li>
-              <li>Node &#38; Express (REST, GraphQL)</li>
+              <li>Node.js (Express)</li>
+              <li>REST, GraphQL</li>
               <li>Webpack, Gulp</li>
-              <li>Karma, Jasmine, Chai</li>
 
             </ul>
 

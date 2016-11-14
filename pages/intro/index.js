@@ -14,7 +14,7 @@ class Intro extends Component {
         <div className={s.main}>
           <div className={s.main__leftcolumn}>
 
-            <div className={s.main__leftcolumn__logo}><Background height="250px" viewBox="0 0 116.5 99.204" background="biglogo"/></div>
+            <div className={s.main__leftcolumn__logo}><Background height="250px" viewBox="602 528.216 120.125 90.625" background="biglogo"/></div>
           </div>
           <div className={s.main__rightcolumn}>
               <p className={s.main__rightcolumn__name}> Hi&#44; my name is Eugene</p>
