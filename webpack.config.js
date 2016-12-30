@@ -5,7 +5,7 @@ const pkg = require('./package.json');
 
 const isDebug = global.DEBUG === false ? false : !process.argv.includes('--release');
 const isVerbose = process.argv.includes('--verbose') || process.argv.includes('-v');
-const useHMR = !!global.HMR; // Hot Module Replacement (HMR)
+const useHMR = !!global.HMR;
 const babelConfig = Object.assign({}, pkg.babel, {
   babelrc: false,
   cacheDirectory: useHMR,
@@ -23,16 +23,16 @@ const config = {
     './main.js',
   ],
 
-  // Options affecting the output of the compilation
+
+//http://159.203.129.83/dist/
   output: {
     path: path.resolve(__dirname, './public/dist'),
-    publicPath: 'http://localhost:3000/dist/',
+    publicPath: 'http://159.203.129.83/dist/',
     filename: isDebug ? '[name].js?[hash]' : '[name].[hash].js',
     chunkFilename: isDebug ? '[id].js?[chunkhash]' : '[id].[chunkhash].js',
     sourcePrefix: '  ',
   },
 
-  // Switch loaders to debug or release mode
   debug: isDebug,
 
 

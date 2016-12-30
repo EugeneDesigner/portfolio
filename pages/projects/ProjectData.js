@@ -73,4 +73,13 @@ export const data = [
 
     },
 
+    {
+      name: "voting",
+      section: "Website",
+      title: "Asked - voting app",
+      task: "create an interactive web app where people could exchange questions/answers on any topic",
+      technology: "React, Node, Socket.io, Adobe Illustrator",
+      link: "https://asked.herokuapp.com/"
+    }
+
 ]

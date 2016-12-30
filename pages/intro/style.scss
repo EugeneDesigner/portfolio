@@ -127,16 +127,20 @@
     .main__leftcolumn, .main__rightcolumn {
       width: 100%;
       max-width: 100%;
+    
+    }
+    .main__leftcolumn {
       height: 50vh;
     }
 
     .main__rightcolumn {
+      height: auto;
       padding-top: 10px;
       line-height: 2em;
       align-items: center;
       justify-content:flex-start;
 
-       * {
+       & > * {
         padding: 2px;
         margin: 0;
         max-height: 20%;
