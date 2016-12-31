@@ -68,8 +68,8 @@ export const data = [
       name: "guitar",
       section: "Logo",
       title: "Into Music Lund AB",
-      task: "create the logo of the enterprise that would be the showcase of the 'into music' feeling",
-      technology: "Adobe Illustrator, Sketch",
+      task: "Create the logo of the enterprise that would be the showcase of the 'into music' feeling",
+      technology: "Adobe Illustrator, Sketch"
 
     },
 
@@ -77,9 +77,32 @@ export const data = [
       name: "voting",
       section: "Website",
       title: "Asked - voting app",
-      task: "create an interactive web app where people could exchange questions/answers on any topic",
+      task: "Build an interactive web app where people could exchange questions/answers on any topic",
       technology: "React, Node, Socket.io, Adobe Illustrator",
       link: "https://asked.herokuapp.com/"
+    },
+    {
+      name: 'icons',
+      section: 'design',
+      title: "Physics in the motion",
+      task: "Design icons that show that physics is cool and super interesting, and there is no place for complexity and boredom in science",
+      technology: "Adobe Illustrator, Adobe Photoshop",
+    },
+    {
+      name: 'kyiv',
+      section: 'website',
+      title: 'Kyiv & Drink app',
+      task: "Develop a website that will serve as a way for people to find a place in Kyiv to spend their evening. Certainly, with a glass of wine or delicious craft beer",
+      technology: "Riot.js, Redux, Adobe Illustrator",
+      link: "https://kyivplaces.herokuapp.com/"
+    },
+    {
+      name: 'todo',
+      section: 'website',
+      title: 'Todo Genie',
+      task: "Set Up a Todo isomorphic application with a twist, adding more interactivity and registration option for a user",
+      technology: "React, Redux, PostgreSQL, Adobe Illustrator",
+      link: ""
     }
 
 ]
