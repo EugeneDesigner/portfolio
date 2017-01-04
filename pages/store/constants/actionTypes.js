@@ -1,0 +1,2 @@
+export const DISPLAY_WORKS = 'DISPLAY_WORKS'
+export const CHOOSE_CATEGORY = 'CHOOSE_CATEGORY'

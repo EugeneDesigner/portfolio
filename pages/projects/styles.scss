@@ -335,9 +335,30 @@
 
 
 
+.content__filter {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+  margin: 40px auto;
+  justify-content: space-around;
 
+  div {
+    flex: 1 0 auto;
+    padding: 20px 0;
+    margin: 5px;
+    min-width: 80px;
+    width: 100%;
+    max-width: 20%;
+    border: 2px solid #000;
+    text-align: center;
+    box-shadow: 12px 12px 0px 0 #000;
+    transition: all .3s ease-in-out;
 
-
+    &:hover {
+      box-shadow: 0px 0px #000 !important;
+    }
+  }
+}
 
 
 
@@ -368,3 +389,12 @@
       }
     }
   }
+
+  .example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}

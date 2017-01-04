@@ -1,27 +1,68 @@
-import React, { PropTypes } from 'react'
+import React, { Component, PropTypes } from 'react'
 import Layout from '../../components/Layout'
 import s from './styles.scss'
 import cn from 'classnames'
 import { data } from './ProjectData'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import * as actions from '../store/actions/PageActions'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import transitions from './transition.scss'
 
 
 
-
-export default class ProjectsPage extends React.Component {
+class ProjectsPage extends Component {
   constructor() {
-    super();
+    super()
 
     this.state = {
       data,
       previous: "",
-      count: 0
+      count: 0,
+      itemN: 0,
+      previousItem: ''
     }
-    const { previous, count } = this.state;
-    this.showDescription = this.showDescription.bind(this);
-    this.imageShow = this.imageShow.bind(this);
+    const { previous, count } = this.state
+    this.showDescription = this.showDescription.bind(this)
+    this.imageShow = this.imageShow.bind(this)
+    this.onTagClick = this.onTagClick.bind(this)
 
   }
 
+    componentWillMount() {
+      this.props.actions.uploadWorks('all')
+      this.props.actions.chooseCategory('all')
+  }
+
+
+  onTagClick(e) {
+
+    if (this.state.itemN == 0 || e.target.id !== this.state.previousItem) {
+      if (this.state.previousItem || this.state.previousItem === '0') {
+
+        document.getElementById(this.state.previousItem).style.boxShadow= "12px 12px 0px 0 #000"
+        document.getElementById(this.state.previousItem).style.borderLeft= "1px solid black"
+      }
+      this.setState({
+        itemN: 1,
+        previousItem: e.target.id
+      })
+      e.target.style.boxShadow= "none"
+      e.target.style.borderLeft= "20px solid black"
+      this.props.actions.uploadWorks(e.target.innerText)
+      this.props.actions.chooseCategory(e.target.innerText)
+
+    }
+    if (this.state.itemN == 1 && e.target.id === this.state.previousItem) {
+      document.getElementById(this.state.previousItem).style.borderLeft= "1px solid black"
+      this.setState({
+        itemN: 0
+      })
+      this.props.actions.uploadWorks('all')
+      this.props.actions.chooseCategory('all')
+    }
+
+  }
 
 
   imageShow(name) {
@@ -68,8 +109,10 @@ export default class ProjectsPage extends React.Component {
 
 
   render() {
-    let stock = this.state.data;
+    const {page} = this.props
 
+    let stock = this.state.data
+    const menu = ['Website', 'Design', 'Art']
 
     const PopUp = (props) => {
       const { name } = props
@@ -85,7 +128,13 @@ export default class ProjectsPage extends React.Component {
     }
 
     return (
-      <div className={s.content}>
+      <ReactCSSTransitionGroup
+      transitionName={transitions}
+      transitionAppear={true}
+      transitionAppearTimeout={1000}
+      transitionEnter={false}
+      transitionLeave={false}>
+      <div className={s.content} key={1}>
         <div className={s.works}>
           <p>Below are some of my works I've done recently.
              Feel free to look around, try them out. I hope you will like them.
@@ -93,12 +142,22 @@ export default class ProjectsPage extends React.Component {
              throw me a message via the links provided above</p>
 
         </div>
+            <div className={s.content__filter}>
+          {
+            menu.map((item, key) => {
+              return <div onClick={this.onTagClick} id={key} key={key}>{item}</div>
+            })
+          }
+            </div>
+
+
             <div className={s.thumbnails} >
 
+
             {
-              stock.map((project, key) => {
+              page.works.map((project, key) => {
                 return (
-                  <div className={project.section == 'Design' || project.section == 'Art' ? s['thumbnails_item--art'] : s.thumbnails_item} onClick={this.showDescription}>
+                  <div key={key} className={page.section == 'Design' || project.section == 'Art' ? s['thumbnails_item--art'] : s.thumbnails_item} onClick={this.showDescription}>
                     <div className={cn(s.thumbnails__column, s[project.name])}><div className={s['thumbnails__column--slide']}>
                       <h3>{project.section}</h3>
                       <p>{project.title}</p>
@@ -116,6 +175,7 @@ export default class ProjectsPage extends React.Component {
                 )
               })
             }
+
 
 
 
@@ -154,7 +214,21 @@ export default class ProjectsPage extends React.Component {
           </div>
 
       </div>
+      </ReactCSSTransitionGroup>
     );
   }
-
 }
+
+function mapStateToProps (state) {
+  return {
+    page: state
+  }
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(actions, dispatch)
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(ProjectsPage)

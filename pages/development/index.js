@@ -79,7 +79,7 @@ class DevelopmentPage extends React.Component {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0,
         elevator = this.refs.lift.getBoundingClientRect().top,
         pos      = this.refs.lift.offsetTop;
-    console.log(scrollTop, window);
+
 
     this.initialPosition(this.state.initialposition);
     this.changePosition(elevator, this.state.count, scrollTop, this.state.lastScrollTop, this.state.initialposition);
@@ -88,14 +88,14 @@ class DevelopmentPage extends React.Component {
       lastScrollTop: scrollTop
     })
 
-  //console.log(this.state.initialposition, scrollTop, elevator)
+
   }
 
 
   render() {
         let css  = { position: this.state.position, top: this.state.top};
 
-   console.log(css);
+
 
     return (
       <div className={s.content}>
