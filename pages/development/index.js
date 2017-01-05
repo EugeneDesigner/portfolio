@@ -1,11 +1,8 @@
-import React, { PropTypes } from 'react';
-import Layout from '../../components/Layout';
-import s from './styles.scss';
-import cn from 'classnames';
-import Background from '../../shared/Backgrounds';
-
-
-
+import React, { PropTypes } from 'react'
+import Layout from '../../components/Layout'
+import s from './styles.scss'
+import cn from 'classnames'
+import Background from '../../shared/Backgrounds'
 
 
 
@@ -30,10 +27,11 @@ class DevelopmentPage extends React.Component {
   }
 
   componentDidMount() {
-   window.addEventListener('scroll', this.handleScroll);
+   window.addEventListener('scroll', this.handleScroll)
+
+    }
 
 
- }
  componentWillUnmount() {
    let scrollTop = window.removeEventListener('scroll', this.handleScroll);
 }
@@ -93,12 +91,14 @@ class DevelopmentPage extends React.Component {
 
 
   render() {
-        let css  = { position: this.state.position, top: this.state.top};
+
+        let css  = { position: this.state.position, top: this.state.top}
 
 
 
     return (
       <div className={s.content}>
+
       <div className={s.preview}>
           <p><span>Be careful - long scroll ahead!</span> I came up with a small idea of visualizing my workflow,
           which turned into a couple of days of drawing and creative searching. As usual. It was challenging, tiresome, but very enjoyable.

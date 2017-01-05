@@ -66,7 +66,7 @@ const config = {
     }),
   ],
 
-  // Options affecting the normal modules
+
   module: {
     loaders: [
 
@@ -88,7 +88,7 @@ const config = {
         loader: `babel-loader?${JSON.stringify(babelConfig)}`,
       },
       {
-        test: /\.css/,
+        test: /\.css$/,
         loaders: [
           'style-loader',
           `css-loader?${JSON.stringify({
@@ -102,7 +102,7 @@ const config = {
         ],
       },
       {
-        test: /\.scss/,
+        test: /\.scss$/,
         include: [
           path.resolve(__dirname, './components'),
           path.resolve(__dirname, './pages'),

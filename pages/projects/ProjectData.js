@@ -44,11 +44,11 @@ export const data = {
       },
       {
         name: 'todo',
-        title: 'Todo Genie',
+        title: 'Todo Genie (DEVELOPMENT version)',
         section: "Website",
         task: "Set Up a Todo isomorphic application with a twist, adding more interactivity and registration option for a user",
         technology: "React, Redux, PostgreSQL, Adobe Illustrator",
-        link: ""
+        link: "https://github.com/EugeneDesigner/TODO-on-steroids"
       }
     ],
 
@@ -65,7 +65,7 @@ export const data = {
         title: "Instagram",
         section: "Design",
         task: "Being little frustrated with limited options of actively using Instagram on my laptop, I decided to redesign the 'computer' version of the popular app",
-        technology: "Adobe Illustrator, Photoshop",
+        technology: "Adobe Illustrator, Adobe Photoshop",
       },
       {
         name: 'icons',
@@ -96,6 +96,13 @@ export const data = {
         section: "Art",
         task: "After returning from Vietnam, I wanted to put some of my memories on paper. I like this work, as it is simply about people and nature - both things I enjoyed the most while travelling",
         technology: "Adobe Illustrator"
+      },
+      {
+        name: 'asian',
+        title: 'Chinese Girl',
+        section: 'Art',
+        task: 'Draw a girl that flow away like a memory of the past. Sort of interpretation of my time in Singapore',
+        technology: "Adobe Photoshop"
       }
     ]
 }

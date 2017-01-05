@@ -1,16 +1,18 @@
 
-import React, { Component } from 'react';
-import Layout from '../../components/Layout';
-import s from './styles.scss';
-import Icon from '../../shared/Icon';
-import Background from '../../shared/Backgrounds';
+import React, { Component } from 'react'
+import Layout from '../../components/Layout'
+import s from './styles.scss'
+import Icon from '../../shared/Icon'
+import Background from '../../shared/Backgrounds'
 
 
 class AboutPage extends Component {
 
   render() {
     return (
+
       <div className={s.content}>
+
         <section className={s.content__intro}>
         <h4 className={s['content__intro__title']}>I am a Web Developer, Artist, Human <Icon size="20px" viewBox="0 0 14.086 20.059" icon="balloon"/></h4>
           <div className={s['content__intro__background']}><Background viewBox="0 0 2130 2001" background="mountains" /></div>
@@ -80,7 +82,9 @@ class AboutPage extends Component {
 
 
 
+
       </div>
+
     );
   }
 

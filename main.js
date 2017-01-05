@@ -12,7 +12,6 @@ import routes from './core/router'
 
 const store = createStore(MainReducer, applyMiddleware(thunk))
 
-console.log(store)
 const container = document.getElementById('container')
 
 const component = (

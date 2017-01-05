@@ -215,7 +215,7 @@ export default class Icon extends React.Component {
             	<path fill="#FCDA15" d="M142.443,241.421c0,0-4.639-58.591,45.361-41.906c0,0,31.014,11.509,9.585,55.606L196.26,300H214v30
             		h-71.311L142.443,241.421z"/>
 
-            		<line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="160.888" y1="166.327" x2="228.037" y2="193.703"/>
+            		<line fill="none" stroke="#000000" strokeWidth="0.25" strokeMiterlimit="10" x1="160.888" y1="166.327" x2="228.037" y2="193.703"/>
             	<path fill="#47453E" d="M212.53,190.979c0,0,28.67-7.022,31.824-11.918C244.354,179.061,223.391,173.251,212.53,190.979z"/>
             	<path fill="#EFCA18" d="M218.073,182.181l1.6,12.07l17.857-2.932l-2.643-14.641c0,0-12.112-2.938-18.028,6.476"/>
             	<path fill="#FCDA15" d="M212.53,190.979c0,0-26.587-60.385-22.619-65.947c0,0,9.983-43.7,38.126-33.371
@@ -251,7 +251,7 @@ export default class Icon extends React.Component {
                 		h-66.824L140.946,248.654z"/>
                 	<path fill="#EFCA18" d="M219.717,166.601l8.731,7.263l10.403-13.316l-11.074-8.365c0,0-10.172,5.654-8.279,15.855"/>
 
-                		<line fill="none" stroke="#000000" stroke-width="0.25" stroke-miterlimit="10" x1="136.234" y1="184.595" x2="203.94" y2="184.903"/>
+                		<line fill="none" stroke="#000000" strokeWidth="0.25" strokeMiterlimit="10" x1="136.234" y1="184.595" x2="203.94" y2="184.903"/>
                 	<path fill="#FCDA15" d="M221.713,174.105c0,0-57.152-22.863-58.135-29.163c0,0-21.864-35.643,3.652-47.151
                 		c0,0,29.201-12.512,36.378,28.176l31.556,19.4C235.164,145.367,221.678,157.389,221.713,174.105z"/>
                 	<path fill="#FCDA15" d="M226.745,173.93c0,0,22.975,20.399,31.192,16.6l21.332-24.97c0,0-18.737-24.686-27.708-21.705
@@ -355,9 +355,9 @@ export default class Icon extends React.Component {
             <rect x="79" y="105" fill="#D4534A" width="18" height="18"/>
             <rect x="81" y="107" fill="#69C2F4" width="14" height="14"/>
             <circle fill="#69C2F4" cx="72.764" cy="77.446" r="6.08"/>
-            <line fill="none" stroke="#D2524E" stroke-miterlimit="10" x1="66" y1="76.5" x2="79" y2="76.5"/>
-            <line fill="none" stroke="#D2524E" stroke-miterlimit="10" x1="70.5" y1="71" x2="70.5" y2="85"/>
-            <circle fill="none" stroke="#D4534A" stroke-width="1.8549" stroke-miterlimit="10" cx="72.764" cy="77.446" r="7.007"/>
+            <line fill="none" stroke="#D2524E" strokeMiterlimit="10" x1="66" y1="76.5" x2="79" y2="76.5"/>
+            <line fill="none" stroke="#D2524E" strokeMiterlimit="10" x1="70.5" y1="71" x2="70.5" y2="85"/>
+            <circle fill="none" stroke="#D4534A" strokeWidth="1.8549" strokeMiterlimit="10" cx="72.764" cy="77.446" r="7.007"/>
             <rect x="48.04" y="109.689" fill="#DC7A60" width="12.573" height="14.369"/>
             <rect x="48.04" y="130.344" fill="#DC7A60" width="12.573" height="16.165"/>
             <circle fill="#F1CB35" cx="60.613" cy="127.36" r="1.584"/>
@@ -374,31 +374,31 @@ export default class Icon extends React.Component {
           <g>
             <path fill="#717577" d="M171.03,117l-1.52,3.97C156.85,153.19,125.46,176,88.75,176c-16.58,0-32.07-4.65-45.24-12.72
             c-15.76-9.65-28.2-24.19-35.21-41.52l-1.82-4.94L171.03,117z"/>
-            <line opacity="0.4" fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="8.527" y1="124.256" x2="21.215" y2="115.809"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="19.694" y1="142.758" x2="47.825" y2="113.794"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="24.274" y1="148.483" x2="51.732" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="29.794" y1="153.636" x2="58.03" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="36.385" y1="159.413" x2="65.262" y2="114.814"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="44.295" y1="165.056" x2="71.404" y2="114.814"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="53.5" y1="169.917" x2="78.256" y2="114.814"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="66.403" y1="174.375" x2="83.512" y2="115.361"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="78.256" y1="176.369" x2="89.714" y2="115.361"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="90.225" y1="177.09" x2="95.818" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="101.893" y1="176.15" x2="101.893" y2="115.361"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="114.008" y1="173.09" x2="108.318" y2="115.361"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="125.827" y1="167.753" x2="114.713" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="136.004" y1="163.007" x2="121.011" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="144.699" y1="156.542" x2="127.309" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="151.749" y1="149.879" x2="133.124" y2="115.361"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="157.733" y1="142.535" x2="140.627" y2="116.256"/>
-            <line opacity="0.8" fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="8.527" y1="124.256" x2="20.767" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="10.801" y1="129.081" x2="26.539" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="13.278" y1="133.049" x2="33.698" y2="115.361"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="15.79" y1="137.89" x2="40.692" y2="114.814"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="161.941" y1="136.828" x2="146.15" y2="115.361"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="165.297" y1="131.087" x2="152.502" y2="116.256"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="168.204" y1="125.878" x2="157.718" y2="115.081"/>
-            <line fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" x1="169.656" y1="120.48" x2="165.098" y2="116.256"/>
+            <line opacity="0.4" fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="8.527" y1="124.256" x2="21.215" y2="115.809"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="19.694" y1="142.758" x2="47.825" y2="113.794"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="24.274" y1="148.483" x2="51.732" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="29.794" y1="153.636" x2="58.03" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="36.385" y1="159.413" x2="65.262" y2="114.814"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="44.295" y1="165.056" x2="71.404" y2="114.814"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="53.5" y1="169.917" x2="78.256" y2="114.814"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="66.403" y1="174.375" x2="83.512" y2="115.361"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="78.256" y1="176.369" x2="89.714" y2="115.361"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="90.225" y1="177.09" x2="95.818" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="101.893" y1="176.15" x2="101.893" y2="115.361"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="114.008" y1="173.09" x2="108.318" y2="115.361"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="125.827" y1="167.753" x2="114.713" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="136.004" y1="163.007" x2="121.011" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="144.699" y1="156.542" x2="127.309" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="151.749" y1="149.879" x2="133.124" y2="115.361"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="157.733" y1="142.535" x2="140.627" y2="116.256"/>
+            <line opacity="0.8" fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="8.527" y1="124.256" x2="20.767" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="10.801" y1="129.081" x2="26.539" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="13.278" y1="133.049" x2="33.698" y2="115.361"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="15.79" y1="137.89" x2="40.692" y2="114.814"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="161.941" y1="136.828" x2="146.15" y2="115.361"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="165.297" y1="131.087" x2="152.502" y2="116.256"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="168.204" y1="125.878" x2="157.718" y2="115.081"/>
+            <line fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" x1="169.656" y1="120.48" x2="165.098" y2="116.256"/>
             <path fill="#89BDD3" d="M175.5,90.25c0,2.06-0.07,4.09-0.21,6.11c-0.47,6.68-1.69,13.15-3.58,19.33H5.79C3.33,107.65,2,99.1,2,90.25
             c0-23,8.95-43.92,23.58-59.44c10.47-11.14,23.86-19.5,38.94-23.88C72.21,4.7,80.34,3.5,88.75,3.5
             C136.66,3.5,175.5,42.34,175.5,90.25z"/>
@@ -449,10 +449,10 @@ export default class Icon extends React.Component {
             C135.35,45.051,124.399,46.094,107.191,45.051z"/>
             <path fill="#E0D8CE" d="M134.503,44.725c0-0.212-6.096-0.75-13.335-0.75c-7.239,0-13.107,0.53-13.107,0.743
             s5.776,0.561,13.015,0.561C128.314,45.279,134.503,44.937,134.503,44.725z"/>
-            <path fill="none" stroke="#6EA814" stroke-width="0.1119" stroke-miterlimit="10" d="M120.625,10.483
+            <path fill="none" stroke="#6EA814" strokeWidth="0.1119" strokeMiterlimit="10" d="M120.625,10.483
             c0.056,0.431,1.399,0.991-0.448,3.621s2.295,4.03,1.343,7.668c-0.952,3.638-1.343,3.582-0.448,6.941"/>
             </g>
-            <path fill="none" stroke="#EAEAEA" stroke-width="0.25" stroke-miterlimit="10" d="M175.5,90.25c0,2.06-0.07,4.09-0.21,6.11
+            <path fill="none" stroke="#EAEAEA" strokeWidth="0.25" strokeMiterlimit="10" d="M175.5,90.25c0,2.06-0.07,4.09-0.21,6.11
             c-0.44,6.32-1.56,12.46-3.29,18.33c-0.03,0.11-0.06,0.21-0.09,0.31c-0.06,0.23-0.13,0.46-0.2,0.69c-0.22,0.71-0.45,1.42-0.68,2.13
             l-0.06,0.18c-0.45,1.34-0.94,2.66-1.46,3.97C156.85,154.19,125.46,177,88.75,177c-16.58,0-32.07-4.65-45.24-12.72
             c-15.76-9.65-28.2-24.19-35.21-41.52c-0.64-1.56-1.23-3.15-1.76-4.76c-0.02-0.06-0.04-0.12-0.06-0.18c-0.24-0.7-0.47-1.42-0.69-2.13
@@ -465,7 +465,7 @@ export default class Icon extends React.Component {
         return (
           <g>
             <ellipse fill="#262828" cx="125.922" cy="219.985" rx="101.896" ry="104.783"/>
-            <path fill="none" stroke="#00FFFF" stroke-width="4" stroke-miterlimit="10" d="M138.005,141.638c0,0,42.48-111.089,59.308-125.745
+            <path fill="none" stroke="#00FFFF" strokeWidth="4" strokeMiterlimit="10" d="M138.005,141.638c0,0,42.48-111.089,59.308-125.745
               c0,0-33.72-4.355-59.232-16.297c0,0-27.716,115.612-36.401,127.011L59.066,68.523c0,0-17.119,20.625-36.117,34.195
               c0,0,71.647,71.831,81.96,110.371l-22.802,48.775h48.834"/>
             <path fill="#082B5E" d="M152.943,261.626c4.342-4.071,8.685-30.688,8.685-30.688c4.071,1.238,5.118-0.868,5.118-0.868l4.381-7.393
@@ -473,9 +473,9 @@ export default class Icon extends React.Component {
               s-4.275-56.882-12.96-61.586c0,0-90.977,59.946-93.51,66.098c0,0,19.032,56.147,17.947,78.402
               c1.086,22.255-17.947,60.975-17.947,60.975c2.533,6.152,93.51,66.042,93.51,66.042c8.685-4.704,12.96-61.586,12.96-61.586
               S148.6,265.697,152.943,261.626z"/>
-            <path fill="none" stroke="#00FFCE" stroke-width="1.0856" stroke-miterlimit="10" d="M148.691,183.414
+            <path fill="none" stroke="#00FFCE" strokeWidth="1.0856" strokeMiterlimit="10" d="M148.691,183.414
               c9.137,15.515,9.771,34.197,9.771,34.197l11.831,1.023l-5.68,10.014"/>
-            <path fill="none" stroke="#00FFCE" stroke-width="1.0856" stroke-miterlimit="10" d="M206.41,325.992l-10.132-6.514l2.533-15.922
+            <path fill="none" stroke="#00FFCE" strokeWidth="1.0856" strokeMiterlimit="10" d="M206.41,325.992l-10.132-6.514l2.533-15.922
               l17.189,9.228c1.731,6.875-3.257,23.884-3.257,23.884l-62.423-39.263c4.35-5.472,2.895-27.502,2.895-27.502
               c6.152,5.066,69.841,36.911,69.841,36.911c1.447,17.008-6.056,40.892-6.056,40.892l-87.307-55.366c37.997-67.67,0-139.683,0-139.683
               l88.116-60.433c9.771,26.779,11.58,53.557,11.58,53.557s-44.052,15.473-78.526,34.378"/>
