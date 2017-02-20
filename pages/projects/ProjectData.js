@@ -59,7 +59,7 @@ export const data = {
         link: "https://obscure-atoll-40915.herokuapp.com/catalog"
       },
       {
-        name: '500x',
+        name: 'photoshare',
         title: 'Photo sharing Application',
         section: 'Website',
         task: 'Using 500x API, I created an application for surfing through top new photos of the 500x community and adding favourite ones to the basket',
