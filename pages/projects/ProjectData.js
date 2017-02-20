@@ -49,7 +49,31 @@ export const data = {
         task: "Set Up a Todo isomorphic application with a twist, adding more interactivity and registration option for a user",
         technology: "React, Redux, PostgreSQL, Adobe Illustrator",
         link: "https://github.com/EugeneDesigner/TODO-on-steroids"
-      }
+      },
+      {
+        name: 'shop',
+        title: 'Shop Mockup Page',
+        section: 'Website',
+        task: 'Full Desktop Version of a retail website',
+        technology: "React, Redux",
+        link: "https://obscure-atoll-40915.herokuapp.com/catalog"
+      },
+      {
+        name: '500x',
+        title: 'Photo sharing Application',
+        section: 'Website',
+        task: 'Using 500x API, I created an application for surfing through top new photos of the 500x community and adding favourite ones to the basket',
+        technology: "React, Redux, Typescript",
+        link: "http://photossharereact.herokuapp.com/search"
+      },
+      {
+        name: 'conference',
+        title: 'Conference Landing page',
+        section: 'Website',
+        task: 'I created a landing page for an IT Conference',
+        technology: "HTML5, SASS, Grunt",
+        link: "https://eugenedesigner.github.io/Conference/"
+      },
     ],
 
     'Design': [
